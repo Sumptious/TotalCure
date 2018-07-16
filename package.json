@@ -1,0 +1,29 @@
+{
+  "name": "my-server",
+  "version": "1.0.0",
+  "description": "Run my app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Ruth Nyong",
+  "license": "ISC",
+  "engines": {
+    "node": "8.4.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^5.0.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-flash": "0.0.2",
+    "express-mailer": "^0.3.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.2.0",
+    "jade": "^1.11.0",
+    "nodemailer": "^4.6.5",
+    "pug": "*"
+  }
+}
