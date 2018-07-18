@@ -57,6 +57,7 @@ app.post('/send', urlencodedParser, function (req, res) {
     Name:     ${req.body.name} 
     Email:    ${req.body.email} 
     Address:  ${req.body.address} 
+    Phone no.:  ${req.body.number}
     State:    ${req.body.state} 
     Product:  ${req.body.product} 
     UlcerMed: ${req.body.ulcer} 
